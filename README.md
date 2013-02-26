@@ -1,4 +1,6 @@
-rc
+.rc
 ==
 
-Run commands. e.g. ".vimrc" ".bashrc"
+This repo is to store all my run commands.
+
+e.g. ".vimrc" ".bashrc" or ".bash_aliases"
