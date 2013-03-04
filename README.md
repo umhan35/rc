@@ -1,6 +1,6 @@
 #.rc
 
-This repo is to store all my run commands.
+This repo is to store all my personal run commands. It's meant to modularize those commands.
 
 e.g. ".vimrc" ".bashrc" or ".bash_aliases"
 
@@ -14,6 +14,6 @@ Assume `~/rc` is this repo
 
 ### apply `.bash_aliases`
 
-Specifically you want to apply the git aliases: `bash_aliases/git`
+Idea: add a line containning `. [aliases file]` to `~/.bash_aliases` and apply changes
 
-`echo . ~/rc/bash_aliases/git >> ~/.bash_aliases` and (`. ~/.bash_aliases` or `~/rc/bash_aliases/git`)
+For example, you want to apply the git aliases: `bash_aliases/git`, append `bash_aliases/git` to `~/.bash_aliases` by `echo . ~/rc/bash_aliases/git >> ~/.bash_aliases` and (`. ~/.bash_aliases` or `~/rc/bash_aliases/git`)
