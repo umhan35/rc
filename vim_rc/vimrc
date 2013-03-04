@@ -1,0 +1,19 @@
+"Indent & tab stuff
+ set expandtab  "tab to space
+ set tabstop=4
+ set shiftwidth=4
+ "Shift-Tab
+  "command mode
+   nmap <S-Tab> <<
+  "insert mode
+   imap <S-Tab> <Esc><<i
+
+ "Indent
+  set autoindent
+  set cindent
+
+"hightlight current line
+ set cursorline  
+
+"mouse mode
+ set mouse=a
