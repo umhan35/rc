@@ -14,3 +14,5 @@ alias gcommit='git commit'
 alias glog='git log'
 
 alias gb='git branch --color'
+
+alias gclone='git clone'
