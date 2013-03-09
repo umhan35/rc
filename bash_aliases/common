@@ -1,0 +1,8 @@
+alias ealias='vim ~/.bash_aliases'
+
+alias ..='cd ..'
+
+alias hgrep='history | grep'
+
+alias v='vim'
+alias r='ruby'
