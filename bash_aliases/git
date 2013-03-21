@@ -1,7 +1,6 @@
-alias g='git'
-
-alias gs='git status -s'
-alias gd='git diff --color'
+alias gstatus='git status'
+alias gss='git status -s'
+alias gdiff='git diff --color'
 
 alias gpull='git pull'
 alias gpush='git push'
@@ -13,6 +12,6 @@ alias gcommit='git commit'
 
 alias glog='git log'
 
-alias gb='git branch --color'
+alias gbranch='git branch --color'
 
 alias gclone='git clone'
