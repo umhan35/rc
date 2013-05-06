@@ -6,3 +6,12 @@ alias hgrep='history | grep'
 
 alias v='vim'
 alias r='ruby'
+
+# man page
+alias m="man"
+alias wi="whatis"
+
+# debian package
+alias dp="dpkg"
+alias dpS="dpkg -S"
+alias dpL="dpkg -L"
