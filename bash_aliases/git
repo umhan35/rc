@@ -15,3 +15,8 @@ alias glog='git log'
 alias gbranch='git branch --color'
 
 alias gclone='git clone'
+
+alias gremote='git remote'
+alias grv='git remote -v'
+
+alias ggui='git gui &'
