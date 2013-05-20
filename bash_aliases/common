@@ -2,7 +2,7 @@ alias ealias='vim ~/.bash_aliases'
 
 alias ..='cd ..'
 
-alias hgrep='history | grep'
+alias ghistory='history | grep'
 
 alias v='vim'
 alias r='ruby'
