@@ -1,6 +1,8 @@
 alias ealias='vim ~/.bash_aliases'
 
 alias ..='cd ..'
+alias ....='cd ..;cd ..'
+alias ......='cd ..;cd ..;cd ..'
 
 alias ghistory='history | grep'
 
@@ -15,3 +17,5 @@ alias wi="whatis"
 alias dp="dpkg"
 alias dpS="dpkg -S"
 alias dpL="dpkg -L"
+
+alias du="du -h"
