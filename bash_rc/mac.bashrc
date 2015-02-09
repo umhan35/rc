@@ -20,4 +20,7 @@ fi
 
 
 # color prompt
-export PS1="\[\033[36m\]\u\[\033[m\]:\033[33;1m\]\w\[\033[m\]\$ "
+#export PS1="\[\033[36m\]\u\[\033[m\]:\033[33;1m\]\w\[\033[m\]\$ "
+export PS1="\u:\w\$ "
+
+export PATH="~/bin/:$PATH"
