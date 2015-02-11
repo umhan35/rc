@@ -24,3 +24,5 @@ fi
 export PS1="\u:\w\$ "
 
 export PATH="`echo $HOME/bin`:$PATH"
+
+alias ebashprofile='vim ~/.bash_profile'
